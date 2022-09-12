@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\angapi\\api\\api.csproj": {}
+    "D:\\Desktop\\Authetication\\api\\api.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\angapi\\api\\api.csproj": {
+    "D:\\Desktop\\Authetication\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\angapi\\api\\api.csproj",
+        "projectUniqueName": "D:\\Desktop\\Authetication\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "D:\\Desktop\\angapi\\api\\api.csproj",
+        "projectPath": "D:\\Desktop\\Authetication\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Bilal\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\angapi\\api\\obj\\",
+        "outputPath": "D:\\Desktop\\Authetication\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

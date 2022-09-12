@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wJFJS15s/n/RIhZEqZPN6CPVDVukKP8doSpsZthhN9vRuxuRGNpS1/3y1r4sxM9YSelrmA+uvNESBXHnWmeHwQ==",
+  "dgSpecHash": "c/AB65E9Agz+TinSh3JVwiF/kdsl+4OOxgdIKOrsAGPgKgesAjU8U25xU/wXdt3dVcVsC1P7oRRfF+ZSdzvA0w==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\angapi\\api\\api.csproj",
+  "projectFilePath": "D:\\Desktop\\Authetication\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bilal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Bilal\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

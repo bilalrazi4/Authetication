@@ -1,1 +1,10 @@
-<p>dashboard works!</p>
+<div *ngIf="!isUserAuthenticated()">
+
+  hey
+  </div>
+  <div *ngIf="isUserAuthenticated()" style="color:
+  green;">
+    <h2>
+      Welcome to the Product Application
+    </h2>
+  </div>

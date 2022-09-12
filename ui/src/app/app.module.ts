@@ -10,14 +10,25 @@ import { CreateComponent } from './main/create/create.component';
 import { LoginComponent } from './main/login/login.component';
 import { DashboardComponent } from './main/dashboard/dashboard.component';
 import { BridgeService } from './main/Services/bridge.service';
+import { JwtHelperService } from '@auth0/angular-jwt';
 
+import { AuthGuardService } from './guards/auth-guard.service';
+import { JwtModule } from "@auth0/angular-jwt";
+
+
+
+
+export function tokenGetter() {
+  return localStorage.getItem("jwt");
+}
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CreateComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -25,9 +36,29 @@ import { BridgeService } from './main/Services/bridge.service';
     NgbModule,
     ReactiveFormsModule,
     HttpClientModule,
+      
+    
+    JwtModule.forRoot({
+      config:{
+        tokenGetter:tokenGetter,
+        allowedDomains:['localhost:7042'],
+        disallowedRoutes: []
+      }
+    }),
+    
+
+    
+    
+  
+    
   ],
   providers: [
-    BridgeService
+    BridgeService,
+    
+    JwtHelperService,
+    AuthGuardService,
+   
+    
   ],
   bootstrap: [AppComponent]
 })
